@@ -37,25 +37,44 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!-- Navigation Section -->
-  <nav class="navigation">
-    <a href="#" class="menu-icon">
-      <i class="fa fa-bars"></i>
-    </a>
-    <ul class="main-navigation" role="navigation">
-      <li><a href="#hero">Home</a></li>
-      <li><a href="#introduction">Introduction</a></li>
-      <li><a href="#creativity">Creativity</a></li>
-      <li><a href="#work">Work</a></li>
-    </ul>
-  </nav>
+  <div class="container">
+    <nav class="fixed-navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a class="navbar-link" href="#home">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#intro">Intro</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#creativity">Creativity</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#work">Work</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+      
+<!--
+      <ul class="main-navigation" role="navigation">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#creativity">Creativity</a></li>
+        <li><a href="#work">Work</a></li>
+      </ul>
+    </nav>
+-->
+  </div>
   
   <!-- Hero Section -->
   <section id="hero" class="hero u-full-width">
-    <div class="hero-image"></div>
+    <div class="hero-image u-full-width">
     <div class="container centered">
-      <div class="twelve columns">
+      <div class="twelve columns hero-name">
         <h1 class="separator">Jason Jalufka</h1>
-        <h2 class="fade-in">I'm Jason.</h2>
+      </div>
       </div>
     </div>
   </section>

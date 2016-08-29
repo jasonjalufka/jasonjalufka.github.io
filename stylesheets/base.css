@@ -2,10 +2,54 @@ h1 {
 	display: inline;
 }
 
-.hero {
+#hero {
+  display: block;
+  margin-top: 10vh
+}
+
+nav {
+  display: inline-block;
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin: 0 auto: left: 0px; right: 0px;
+  float: clear;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+  list-style-type: none;
+  color: #222;
   text-align: center;
 }
 
+nav li a {
+  display: block;
+  text-decoration: none;
+  color: #222;
+}
+
+.main-navigation {
+  display: inline;
+}
+
+.hero {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-name{
+  padding: 3em;
+}
+
 .hero-image {
-  background-image: 
+  background-image: url("/images/mountain%20hero.jpg");
+  max-width: 90%;
+  height: auto;
+  margin: auto;
 }
