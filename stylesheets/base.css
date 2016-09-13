@@ -18,8 +18,7 @@ nav {
   background-color: white;
   margin: 0px; left: 0px; right: 0px;
   float: clear;
-	vertical-align: middle;
-		
+  vertical-align: middle;
 }
 
 nav li {
@@ -28,14 +27,12 @@ nav li {
   list-style-type: none;
   color: #222;
   text-align: center;
-		
 }
 
 nav li a {
   display: block;
   text-decoration: none;
   color: #222;
-	
 }
 
 .main-navigation {
