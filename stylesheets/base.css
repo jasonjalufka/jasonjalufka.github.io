@@ -24,18 +24,29 @@ nav {
   vertical-align: middle;
 }
 
+/*COLORS
+salmon: #d79c8c
+dark-green/blue: #609194
+*/
+
 nav li {
   float: left;
   width: 25%;
   list-style-type: none;
   color: #222;
   text-align: center;
+  transition: all 3s ease 0s;
+}
+
+nav li a:hover {
+  color: #609194;
 }
 
 nav li a {
   display: block;
   text-decoration: none;
   color: #222;
+  transition: all 0.3s ease 0s;
 }
 
 .main-navigation {
