@@ -1,3 +1,5 @@
 $(document).ready(function() {
-    alert("hello");
+    console.log("I'm ready!");
 });
+
+
