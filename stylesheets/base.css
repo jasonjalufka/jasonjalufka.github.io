@@ -33,7 +33,7 @@ nav li {
   float: left;
   width: 25%;
   list-style-type: none;
-  color: #222;
+  color: #141823;
   text-align: center;
   transition: all 3s ease 0s;
 }
@@ -45,7 +45,7 @@ nav li a:hover {
 nav li a {
   display: block;
   text-decoration: none;
-  color: #222;
+  color: #141823;
   transition: all 0.3s ease 0s;
 }
 
@@ -63,11 +63,14 @@ nav li a {
 }
 
 .hero-image {
-  background-image: url("/images/mountain%20hero.jpg");
+  background-image: url("https://unsplash.it/g/1920/1080/?random");
   max-width: 80%;
   height: auto;
   margin: auto;
+  background-clip: content-box;
 }
+
+
 
 .work-image {
   padding-top: 1.2em;
@@ -78,4 +81,15 @@ nav li a {
   width: 100%;
   height: auto;
   border: 0;
+}
+
+.work-description {
+  text-align: center;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  .work-description{
+    display: none;
+  }
 }

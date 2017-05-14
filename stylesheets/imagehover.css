@@ -13,8 +13,10 @@
   display: inline-block;
   margin: 0px;
   max-width: 100%;
-  background-color: #609194;
-  color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+/*  background-color: #609194;*/
+/*  color: #fff;*/
+  color: #141823;
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -29,14 +31,15 @@
 }
 [class^='imghvr-'] figcaption,
 [class*=' imghvr-'] figcaption {
-  background-color: #609194;
+  background-color: rgba(255, 255, 255, 0.3);
+/*  background-color: #609194;*/
   padding: 30px;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  color: #ffffff;
+  color: #141823;
 }
 [class^='imghvr-'] figcaption h1,
 [class*=' imghvr-'] figcaption h1,
@@ -86,7 +89,7 @@
 }
 [class^='imghvr-fade']:hover > img,
 [class*=' imghvr-fade']:hover > img {
-  opacity: 0;
+  opacity: 0.1;
 }
 [class^='imghvr-fade']:hover figcaption,
 [class*=' imghvr-fade']:hover figcaption {
