@@ -63,7 +63,7 @@ nav li a {
 }
 
 .hero-image {
-  background-image: url("https://unsplash.it/g/1920/1080/?random");
+  background-image: url("/images/mountain%20hero.jpg");
   max-width: 80%;
   height: auto;
   margin: auto;
