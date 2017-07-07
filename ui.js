@@ -1,5 +1,16 @@
 $(document).ready(function() {
-    console.log("I'm ready!");
+  
+  console.log( "ready!" );
+  
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    
+    if (scroll >= 30) {
+      $("nav").fadeOut();
+    }
+    else {
+      $("nav").fadeIn();
+    }
+  });
+  
 });
-
-
