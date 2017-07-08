@@ -75,7 +75,31 @@ nav li a {
   background-clip: content-box;
 }
 
+#getLocation {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
 
+#footer {
+  background-color: #609194;
+  margin-top: 50px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  color: whitesmoke;
+  font-weight: 100;
+}
+
+#footer p {
+  font-size: .75em;
+  margin: 0; 
+  padding-left: 10px;
+}
+
+#footer hr {
+  margin: 20px 0;
+}
 
 .work-image {
   padding-top: 1.2em;
