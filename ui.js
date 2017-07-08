@@ -3,7 +3,7 @@ $(document).ready(function() {
   console.log( "ready!" );
   
   $("#getLocation").click(function() {
-    $.get("http://ipinfo.io", function (response) {
+    $.get("https://ipinfo.io", function (response) {
       $("#getLocation").html("Location: " + response.city + ", " + response.region);
     }, "jsonp").done(function() {
       $("#getLocation").css("background-color", "#2ecc71");
