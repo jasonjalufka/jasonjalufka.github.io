@@ -1,6 +1,6 @@
 # Personal Website ☝️🙂
 
-Hi! 
+Hi! Thanks for checking out my personal site! 
 
 ## What I used
 - [Brackets](http://brackets.io/) my go-to editor
