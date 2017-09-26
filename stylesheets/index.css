@@ -1,14 +1,19 @@
 body {
   font-size: 1.7em;
 }
+
 h1 {
   display: inline;
 }
 
 #jason {
+  font-family: 'Raleway', cursive;
   color: white;
-  font-size: 6rem;
+  font-size: 7rem;
+  letter-spacing: px
 }
+
+
 #hero {
   display: block;
   margin-top: 10vh;
@@ -27,11 +32,6 @@ nav {
   float: clear;
   vertical-align: middle;
 }
-
-/*COLORS
-salmon: #d79c8c
-dark-green/blue: #609194
-*/
 
 nav li {
   float: left;
@@ -74,6 +74,20 @@ nav li a {
   background-clip: content-box;
 }
 
+#usaa {
+  zoom: 1.4;
+  padding-left: 10px;
+
+  display: block;
+  margin: auto;
+
+  height: auto;
+  max-height: 100%;
+
+  width: auto;
+  max-width: 100%;
+}
+
 #getLocation {
   margin: 20px auto 5px; 
   display: flex;
@@ -88,9 +102,10 @@ nav li a {
 }
 
 #footer {
-  background-color: #609194;
+  background: #35342f;
   margin-top: 50px;
   max-width: 100%;
+  padding: 25px 0;
   margin-left: auto;
   margin-right: auto;
   color: whitesmoke;

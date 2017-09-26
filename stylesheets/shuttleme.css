@@ -1,56 +1,14 @@
-body {
-  font-size: 1.7em;
-}
-
 #project {
   margin-top: 4em;
-}
-nav {
-  display: inline-block;
-  list-style-type: none;
-  position: fixed;
-  top: 0;
-  z-index: 9999;
-  width: 100%;
-  height: auto;
-  background-color: white;
-  margin: 0px; left: 0px; right: 0px;
-  float: clear;
-  vertical-align: middle;
-}
-
-/*COLORS
-salmon: #d79c8c
-dark-green/blue: #609194
-*/
-
-nav li {
-  float: left;
-  width: 25%;
-  list-style-type: none;
-  color: #141823;
-  text-align: center;
-  transition: all 3s ease 0s;
-}
-
-nav li a:hover {
-  color: #609194;
-}
-
-nav li a {
-  display: block;
-  text-decoration: none;
-  color: #141823;
-  transition: all 0.3s ease 0s;
-}
-
-.main-navigation {
-  display: inline;
-}
-
+} 
+  
 #head {
   margin-left: auto;
   margin-right: auto;
   display: block;
   max-width: 60%;
+}
+
+a {
+  text-decoration: none;
 }

@@ -1,13 +1,9 @@
-h1 {
-  display: inline;
+body {
+  font-size: 1.7em;
 }
 
-#jason {
-  color: white;
-}
-#hero {
-  display: block;
-  margin-top: 10vh
+h1 {
+  display: inline;
 }
 
 nav {
@@ -15,19 +11,13 @@ nav {
   list-style-type: none;
   position: fixed;
   top: 0;
-  z-index: 9999;
   width: 100%;
   height: auto;
-  background-color: white;
+  background-color: transparent;
   margin: 0px; left: 0px; right: 0px;
   float: clear;
   vertical-align: middle;
 }
-
-/*COLORS
-salmon: #d79c8c
-dark-green/blue: #609194
-*/
 
 nav li {
   float: left;
@@ -51,45 +41,4 @@ nav li a {
 
 .main-navigation {
   display: inline;
-}
-
-.hero {
-  text-align: center;
-  padding: 20px;
-}
-
-.hero-name{
-  padding: 3em;
-}
-
-.hero-image {
-  background-image: url("/images/hero.jpg");
-  max-width: 80%;
-  height: auto;
-  margin: auto;
-  background-clip: content-box;
-}
-
-
-
-.work-image {
-  padding-top: 1.2em;
-  padding-bottom: 1.2em;
-}
-
-.work-image img {
-  width: 100%;
-  height: auto;
-  border: 0;
-}
-
-.work-description {
-  text-align: center;
-}
-
-/* Larger than mobile */
-@media (min-width: 400px) {
-  .work-description{
-    display: none;
-  }
 }
