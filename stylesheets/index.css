@@ -74,9 +74,13 @@ nav li a {
   background-clip: content-box;
 }
 
+p {
+  line-height: 3rem
+}
+
 #usaa {
-  zoom: 1.4;
-  padding-left: 10px;
+  zoom: 1;
+  padding: 10px;
 
   display: block;
   margin: auto;
@@ -85,20 +89,19 @@ nav li a {
   max-height: 100%;
 
   width: auto;
-  max-width: 100%;
+  max-width: 20%;
 }
 
-#getLocation {
-  margin: 20px auto 5px; 
-  display: flex;
-  justify-content: center;
+#experience {
+  margin-bottom: 2em;
 }
 
-#disclaimer {
-  display: flex;
-  justify-content: center;
-  font-size: 0.6em;
-  color: dimgrey;
+.experience-title {
+  margin-bottom: 10px;
+}
+.experience-description {
+  padding-left: 10px;
+  font-size: .85em
 }
 
 #footer {
@@ -152,6 +155,20 @@ nav li a {
   .hero-image {
     max-width: 90%;
   }
+  
+    #usaa {
+  zoom: 1.4;
+  padding: 10px;
+
+  display: block;
+  margin: auto;
+
+  height: auto;
+  max-height: 100%;
+
+  width: auto;
+  max-width: 60%;
+}
 }
 
 /* Larger than tablet */
@@ -159,4 +176,19 @@ nav li a {
   .hero-image {
     max-width: 85%;
   }
+  
+  #usaa {
+  zoom: 1.4;
+  padding: 10px;
+
+  display: block;
+  margin: auto;
+
+  height: auto;
+  max-height: 100%;
+
+  width: auto;
+  max-width: 60%;
+}
+  
 }

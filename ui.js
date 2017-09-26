@@ -11,18 +11,6 @@ $(document).ready(function() {
 //    })
 //  });
   
-  $(window).onload = function() {
-  Particles.init({
-    selector: '.particle-background',
-      maxParticles: 100,
-      sizeVariations: 3,
-      speed: 0.5,
-      color: "#222222",
-      minDistance: 120,
-      connectParticles: true
-  });
-};
-  
   
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
