@@ -12,3 +12,15 @@
 a {
   text-decoration: none;
 }
+
+.tech {
+  border: 1px solid #50a9d1;
+  border-radius: 8px;
+  width: auto;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 11px;
+  padding: 4px 10px;
+}

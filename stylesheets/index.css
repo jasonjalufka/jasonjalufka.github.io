@@ -1,16 +1,20 @@
 body {
   font-size: 1.7em;
+  font-weight: 300;
 }
 
 h1 {
   display: inline;
 }
 
+.container p {
+  font-weight: 100;
+}
+
 #jason {
   font-family: 'Raleway', cursive;
   color: white;
   font-size: 7rem;
-  letter-spacing: px
 }
 
 
@@ -72,10 +76,6 @@ nav li a {
   height: auto;
   margin: auto;
   background-clip: content-box;
-}
-
-p {
-  line-height: 3rem
 }
 
 #usaa {
@@ -158,7 +158,7 @@ p {
   
     #usaa {
   zoom: 1.4;
-  padding: 10px;
+/*  padding: 10px;*/
 
   display: block;
   margin: auto;
@@ -167,7 +167,8 @@ p {
   max-height: 100%;
 
   width: auto;
-  max-width: 60%;
+  max-width: 20%;
+  float: left;
 }
 }
 
@@ -188,7 +189,7 @@ p {
   max-height: 100%;
 
   width: auto;
-  max-width: 60%;
+  max-width: 10%;
 }
   
 }
