@@ -1,0 +1,195 @@
+body {
+  font-size: 1.7em;
+  font-weight: 300;
+}
+
+h1 {
+  display: inline;
+}
+
+.container p {
+  font-weight: 100;
+}
+
+#jason {
+  font-family: 'Raleway', cursive;
+  color: white;
+  font-size: 7rem;
+}
+
+
+#hero {
+  display: block;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
+}
+
+nav {
+  display: inline-block;
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  margin: 0px; left: 0px; right: 0px;
+  float: clear;
+  vertical-align: middle;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+  list-style-type: none;
+  color: #141823;
+  text-align: center;
+  transition: all 3s ease 0s;
+}
+
+nav li a:hover {
+  color: #609194;
+}
+
+nav li a {
+  display: block;
+  text-decoration: none;
+  color: #141823;
+  transition: all 0.3s ease 0s;
+}
+
+.main-navigation {
+  display: inline;
+}
+
+.hero {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-name{
+  padding: 2em;
+}
+
+.hero-image {
+  background-image: url("/images/hero.jpg");
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  background-clip: content-box;
+}
+
+#usaa {
+  zoom: 1;
+  padding: 10px;
+
+  display: block;
+  margin: auto;
+
+  height: auto;
+  max-height: 100%;
+
+  width: auto;
+  max-width: 20%;
+}
+
+#experience {
+  margin-bottom: 2em;
+}
+
+.experience-title {
+  margin-bottom: 10px;
+}
+.experience-description {
+  padding-left: 10px;
+  font-size: .85em
+}
+
+#footer {
+  background: #35342f;
+  margin-top: 50px;
+  max-width: 100%;
+  padding: 25px 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: whitesmoke;
+  font-weight: 100;
+}
+
+#footer p {
+  font-size: .75em;
+  margin: 0; 
+  padding-left: 10px;
+}
+
+#footer hr {
+  margin: 20px 0;
+}
+
+.work-image {
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+}
+
+.work-image img {
+  width: 100%;
+  height: auto;
+  border: 0;
+  box-shadow: 0px 2px 3px #888888;
+}
+
+.work-caption {
+  font-size: 0.8em;
+  color: #141823; 
+}
+
+.work-description {
+  text-align: center;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  .work-description{
+    display: none;
+  }
+  
+  .hero-image {
+    max-width: 90%;
+  }
+  
+    #usaa {
+  zoom: 1.4;
+/*  padding: 10px;*/
+
+  display: block;
+  margin: auto;
+
+  height: auto;
+  max-height: 100%;
+
+  width: auto;
+  max-width: 20%;
+  float: left;
+}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .hero-image {
+    max-width: 85%;
+  }
+  
+  #usaa {
+  zoom: 1.4;
+  padding: 10px;
+
+  display: block;
+  margin: auto;
+
+  height: auto;
+  max-height: 100%;
+
+  width: auto;
+  max-width: 10%;
+}
+  
+}
