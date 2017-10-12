@@ -81,13 +81,10 @@ nav li a {
 #usaa {
   zoom: 1;
   padding: 10px;
-
   display: block;
   margin: auto;
-
   height: auto;
   max-height: 100%;
-
   width: auto;
   max-width: 20%;
 }
@@ -140,10 +137,17 @@ nav li a {
 .work-caption {
   font-size: 0.8em;
   color: #141823; 
+  padding: 0px;
 }
 
 .work-description {
   text-align: center;
+}
+
+#astronauts {
+  padding: 30px;
+  border-radius: 40px;
+  box-shadow: none !important;
 }
 
 /* Larger than mobile */
@@ -152,24 +156,24 @@ nav li a {
     display: none;
   }
   
+  figcaption {
+    padding: 0px;
+  }
+  
   .hero-image {
     max-width: 90%;
   }
   
-    #usaa {
-  zoom: 1.4;
-/*  padding: 10px;*/
-
-  display: block;
-  margin: auto;
-
-  height: auto;
-  max-height: 100%;
-
-  width: auto;
-  max-width: 20%;
-  float: left;
-}
+  #usaa {
+    zoom: 1.4;
+    display: block;
+    margin: auto;
+    height: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 20%;
+    float: left;
+  }
 }
 
 /* Larger than tablet */
@@ -179,17 +183,14 @@ nav li a {
   }
   
   #usaa {
-  zoom: 1.4;
-  padding: 10px;
-
-  display: block;
-  margin: auto;
-
-  height: auto;
-  max-height: 100%;
-
-  width: auto;
-  max-width: 10%;
-}
+    zoom: 1.4;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    height: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 10%;
+  }
   
 }
