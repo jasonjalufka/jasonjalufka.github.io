@@ -28,6 +28,7 @@
       margin-bottom: 1rem;
       color: var(--text-color);
       opacity: 0.9;
+      text-align: left;
     }
 
     .gpg-key {
@@ -98,7 +99,11 @@
 <body>
   <main>
     <div class="contact-container">
-      <a href="index.html" class="back-link">← Back</a>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="separator">/</span>
+        <span>Contact</span>
+      </div>
 
       <div class="section">
         <h2 class="section-title">email</h2>
@@ -107,60 +112,7 @@
 
       <div class="section">
         <h2 class="section-title">gpg</h2>
-        <p class="instructions">For secure communication, you can use my GPG key. Import it with:</p>
-        <div class="gpg-key" id="gpgKey">
-          -----BEGIN PGP PUBLIC KEY BLOCK-----
-          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
-          M4r+23TDErqGtaQLyxg=
-          =qY0T
-          -----END PGP PUBLIC KEY BLOCK-----
-        </div>
+        <a href="public.asc" id="gpgKey" download>6FB5 E638 8F69 EB98 735A 6882 C17A B120 4943 182A</a>
         <button class="copy-button" onclick="copyKey()">Copy Key</button>
         <p class="gpg-fingerprint">Fingerprint: [Your key fingerprint]</p>
       </div>
@@ -180,6 +132,26 @@
         }, 2000);
       });
     }
+  </script>
+
+  <script>
+    // Page transition
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelector('main').classList.add('loaded');
+    });
+
+    // Handle page transitions when clicking links
+    document.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        if (link.hostname === window.location.hostname) {
+          e.preventDefault();
+          document.querySelector('main').style.opacity = '0';
+          setTimeout(() => {
+            window.location = link.href;
+          }, 300);
+        }
+      });
+    });
   </script>
 </body>
 

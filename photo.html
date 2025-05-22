@@ -20,6 +20,12 @@
       height: auto;
       border-radius: 8px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      transition: border-color 0.3s ease;
+    }
+
+    .photo-container img:hover {
+      border-color: rgba(255, 255, 255, 0.15);
     }
 
     .back-link {
@@ -38,11 +44,35 @@
 <body>
   <main>
     <div class="photo-container">
-      <a href="index.html" class="back-link">← Back</a>
-      <img src="https://res.cloudinary.com/dmnpw11al/image/upload/DSCF3940_oxs5mx.jpg"
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="separator">/</span>
+        <span>Photo</span>
+      </div>
+      <img src="https://res.cloudinary.com/dmnpw11al/image/upload/fl_progressive/DSCF3940_oxs5mx.jpg"
         alt="Photograph by Jason Jalufka">
     </div>
   </main>
+
+  <script>
+    // Page transition
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelector('main').classList.add('loaded');
+    });
+
+    // Handle page transitions when clicking links
+    document.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        if (link.hostname === window.location.hostname) {
+          e.preventDefault();
+          document.querySelector('main').style.opacity = '0';
+          setTimeout(() => {
+            window.location = link.href;
+          }, 300);
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>

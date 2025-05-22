@@ -14,7 +14,7 @@
 </head>
 
 
-<body>
+<body class="centered-content">
   <main>
     <div class="centered-text">
       <div class="name-container">
@@ -72,6 +72,26 @@
     });
 
     startAnimation(); // Begin immediately if visible
+  </script>
+
+  <script>
+    // Page transition
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelector('main').classList.add('loaded');
+    });
+
+    // Handle page transitions when clicking links
+    document.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        if (link.hostname === window.location.hostname) {
+          e.preventDefault();
+          document.querySelector('main').style.opacity = '0';
+          setTimeout(() => {
+            window.location = link.href;
+          }, 300);
+        }
+      });
+    });
   </script>
 </body>
 
